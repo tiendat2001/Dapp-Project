@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+img{
+    width: 50px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    /* width:200px; */
+    overflow: hidden; /* Hide overflow content */
+    white-space: nowrap; 
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow content */
+    background-color:#fbe400;
+    height:40px;
+    width:330px;
+    
+}
+.address h4{
+    font-size:18px;
+}
+
+.title_header{
+    font-size:30px;
+    color:red;
+ font-weight: bold;}

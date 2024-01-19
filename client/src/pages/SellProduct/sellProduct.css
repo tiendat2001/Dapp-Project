@@ -1,0 +1,31 @@
+.form_input {
+    margin-top:-220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height for full-screen centering */
+    
+  }
+  
+  .title_product{
+      font-size: 20px;
+  }
+  /* Add additional styling if needed */
+  label {
+    /* margin: 5px; Adjust margin as needed */
+  }
+  
+  input {
+    margin: 5px 0px; /* Adjust margin as needed */
+  }
+  
+.btn_sell {
+    width:300px;
+    color:white;
+    background-color: green;
+}
+
+  .btn{
+    display: flex;
+    justify-content: center;
+  }

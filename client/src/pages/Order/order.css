@@ -1,0 +1,25 @@
+table{
+    width:100%;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f0f0f0; /* Màu xám nhạt */
+}
+
+/* Định nghĩa màu sắc cho các hàng lẻ */
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Màu trắng */
+}
+
+/* Định nghĩa màu sắc cho các ô */
+td {
+    color: black; /* Chữ đen */
+    padding: 7px;
+    border: 1px solid white;
+    text-align: center;
+}
+th {
+    text-align: center;
+    background-color: #f0f0f0;
+}
